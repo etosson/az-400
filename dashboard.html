@@ -144,6 +144,132 @@
         .status-completed { background-color: rgba(46, 204, 113, 0.1); color: var(--success-color); }
         .status-pending { background-color: rgba(241, 196, 15, 0.1); color: var(--warning-color); }
 
+        /* Responsive table wrapper */
+        .table-wrapper {
+            overflow-x: auto;
+            -webkit-overflow-scrolling: touch;
+        }
+
+        /* Responsive Design - Tablets */
+        @media (max-width: 768px) {
+            body {
+                padding: 15px;
+            }
+
+            h1 {
+                font-size: 2rem;
+            }
+
+            .subtitle {
+                font-size: 1rem;
+            }
+
+            .dashboard-grid {
+                grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+                gap: 15px;
+            }
+
+            .card {
+                padding: 20px;
+            }
+
+            .card-value {
+                font-size: 1.75rem;
+            }
+
+            .section-title {
+                font-size: 1.3rem;
+            }
+
+            table {
+                font-size: 0.9rem;
+            }
+
+            th, td {
+                padding: 12px 8px;
+            }
+        }
+
+        /* Responsive Design - Mobile Phones */
+        @media (max-width: 480px) {
+            body {
+                padding: 10px;
+            }
+
+            h1 {
+                font-size: 1.5rem;
+                margin-bottom: 5px;
+            }
+
+            .subtitle {
+                font-size: 0.9rem;
+            }
+
+            .dashboard-grid {
+                grid-template-columns: 1fr;
+                gap: 12px;
+            }
+
+            .card {
+                padding: 18px;
+            }
+
+            .card-icon {
+                font-size: 1.5rem;
+                padding: 8px;
+            }
+
+            .card-title {
+                font-size: 0.8rem;
+            }
+
+            .card-value {
+                font-size: 1.5rem;
+            }
+
+            .card-trend {
+                font-size: 0.8rem;
+            }
+
+            .recent-activity {
+                padding: 18px;
+            }
+
+            .section-title {
+                font-size: 1.2rem;
+                margin-bottom: 15px;
+            }
+
+            table {
+                font-size: 0.75rem;
+                min-width: 500px;
+            }
+
+            th, td {
+                padding: 10px 6px;
+            }
+
+            .status {
+                padding: 4px 8px;
+                font-size: 0.75rem;
+            }
+        }
+
+        /* Extra small devices */
+        @media (max-width: 320px) {
+            h1 {
+                font-size: 1.3rem;
+            }
+
+            .card-value {
+                font-size: 1.3rem;
+            }
+
+            table {
+                font-size: 0.7rem;
+            }
+        }
+
     </style>
 </head>
 <body>
@@ -201,6 +327,7 @@
 
         <div class="recent-activity">
             <h2 class="section-title">Recent Transactions</h2>
+            <div class="table-wrapper">
             <table>
                 <thead>
                     <tr>
@@ -242,6 +369,7 @@
                     </tr>
                 </tbody>
             </table>
+            </div>
         </div>
     </div>
 </body>
