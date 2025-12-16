@@ -1,0 +1,18 @@
+trigger:
+- main
+
+pool:
+  name: 'default'
+
+variables:
+  solution: '**/*.sln'
+  buildPlatform: 'Any CPU'
+  buildConfiguration: 'Release'
+
+steps:
+
+- script: echo 'test step'
+  displayName: test step
+
+
+
