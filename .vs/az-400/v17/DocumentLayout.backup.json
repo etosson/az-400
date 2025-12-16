@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "F:\\courses\\azure-cicd\\DevSecOps\\az-400\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{82CAA306-889C-DBBD-4864-9062450FC8F4}|QuickRestApi\\QuickRestApi.csproj|f:\\courses\\azure-cicd\\devsecops\\az-400\\quickrestapi\\securityrulesenabled.ruleset||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{82CAA306-889C-DBBD-4864-9062450FC8F4}|QuickRestApi\\QuickRestApi.csproj|solutionrelative:quickrestapi\\securityrulesenabled.ruleset||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{82CAA306-889C-DBBD-4864-9062450FC8F4}|QuickRestApi\\QuickRestApi.csproj|f:\\courses\\azure-cicd\\devsecops\\az-400\\quickrestapi\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{82CAA306-889C-DBBD-4864-9062450FC8F4}|QuickRestApi\\QuickRestApi.csproj|solutionrelative:quickrestapi\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82CAA306-889C-DBBD-4864-9062450FC8F4}|QuickRestApi\\QuickRestApi.csproj|f:\\courses\\azure-cicd\\devsecops\\az-400\\quickrestapi\\securityrulesenabled.ruleset||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{82CAA306-889C-DBBD-4864-9062450FC8F4}|QuickRestApi\\QuickRestApi.csproj|solutionrelative:quickrestapi\\securityrulesenabled.ruleset||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{82CAA306-889C-DBBD-4864-9062450FC8F4}|QuickRestApi\\QuickRestApi.csproj|f:\\courses\\azure-cicd\\devsecops\\az-400\\quickrestapi\\quickrestapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
@@ -26,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,7 +34,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "SecurityRulesEnabled.ruleset",
               "DocumentMoniker": "F:\\courses\\azure-cicd\\DevSecOps\\az-400\\QuickRestApi\\SecurityRulesEnabled.ruleset",
               "RelativeDocumentMoniker": "QuickRestApi\\SecurityRulesEnabled.ruleset",
@@ -60,13 +60,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "WeatherForecastController.cs",
               "DocumentMoniker": "F:\\courses\\azure-cicd\\DevSecOps\\az-400\\QuickRestApi\\Controllers\\WeatherForecastController.cs",
               "RelativeDocumentMoniker": "QuickRestApi\\Controllers\\WeatherForecastController.cs",
               "ToolTip": "F:\\courses\\azure-cicd\\DevSecOps\\az-400\\QuickRestApi\\Controllers\\WeatherForecastController.cs",
               "RelativeToolTip": "QuickRestApi\\Controllers\\WeatherForecastController.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAqwBgAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-15T16:53:04.204Z",
               "EditorCaption": ""
