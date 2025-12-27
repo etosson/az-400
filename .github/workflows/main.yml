@@ -1,5 +1,6 @@
 name: buildDotNet
 
+
 on:
   push:
     branches:
@@ -7,7 +8,7 @@ on:
 
 jobs:
   build:
-    runs-on: echo build
+    runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v4
       name: checkout
