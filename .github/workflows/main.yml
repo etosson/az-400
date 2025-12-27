@@ -1,0 +1,25 @@
+name: buildDotNet
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: echo build
+    steps:
+    - uses: actions/checkout@v4
+      name: checkout
+
+    - run: echo checked out successfully 
+      
+    - uses: actions/setup-dotnet@v4
+      name: setup DotNet
+      with:
+        dotnet-version: 9.x
+
+    - run: dotnet build 
+      name: dotnet build
+
+
